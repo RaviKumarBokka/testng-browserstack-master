@@ -11,7 +11,7 @@ public class BStackDemoTest extends SeleniumTest {
         // navigate to bstackdemo
         driver.get("https://www.bstackdemo.com");
 
-        // Check the title
+        // Check the title with browser window
         Assert.assertTrue(driver.getTitle().matches("StackDemo"));
 
         // Save the text of the product for later verify
