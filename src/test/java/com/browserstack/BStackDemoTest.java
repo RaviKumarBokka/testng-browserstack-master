@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class BStackDemoTest extends SeleniumTest {
     @Test
     public void addProductToCart() throws Exception {
-        // fixes- workflow added navigate to bstackdemo fetch - after url added username and password
+        //  workflow added navigate to bstackdemo fetch - after url added username and password
         driver.get("https://www.bstackdemo.com");
 
         // Check the title with browser window
