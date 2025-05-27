@@ -1,0 +1,468 @@
+16:56:41.628 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:56:41.629 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:56:41.982 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+16:56:41.983 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+16:56:42.083 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:56:42.092 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+16:56:43.045 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:56:43.048 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7a8a219e-fdb2-4dc2-86a8-29cd22797835
+16:56:43.048 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:56:43.108 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+16:56:43.110 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+16:56:43.111 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+16:56:44.018 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+16:56:44.018 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+16:56:44.018 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+16:56:44.019 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+16:56:44.036 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+16:56:44.036 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+16:56:47.691 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:56:49.152 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: m2opiuhh1ycdi1bzz7mtyftkkutjofatujbknkbk
+16:56:49.152 [main] INFO  c.b.config.BrowserStackConfig - INFO
+16:56:49.152 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+16:56:49.833 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+16:56:49.833 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:57:18.661 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:57:49.368 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/m2opiuhh1ycdi1bzz7mtyftkkutjofatujbknkbk to view build report, insights, and many more debugging information all at one place!
+
+16:57:49.368 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:57:49.854 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+16:57:54.836 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+16:57:54.836 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+16:57:57.408 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/920391f2dfb73341b4114967bf0459b6ea7d01ba
+16:57:57.409 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:57:57.419 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 7a8a219e-fdb2-4dc2-86a8-29cd22797835, testhub id: m2opiuhh1ycdi1bzz7mtyftkkutjofatujbknkbk
+16:57:57.419 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:11:26.812 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+17:11:26.813 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:11:27.074 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+17:11:27.074 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+17:11:27.207 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:11:27.219 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+17:11:28.204 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+17:11:28.208 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 908784f7-1759-45bf-9656-73330bdcd783
+17:11:28.208 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:11:28.269 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+17:11:28.271 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+17:11:28.271 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+17:11:29.100 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+17:11:29.101 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+17:11:29.101 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+17:11:29.102 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+17:11:29.113 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+17:11:29.113 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+17:11:32.703 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:11:34.035 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: uvmhp7iwony9ynlmhuk9evjoes4eghlcgoqvhf7e
+17:11:34.035 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:11:34.035 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+17:11:34.975 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+17:11:34.975 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:11:44.358 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:12:33.161 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/uvmhp7iwony9ynlmhuk9evjoes4eghlcgoqvhf7e to view build report, insights, and many more debugging information all at one place!
+
+17:12:33.161 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:12:33.163 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+17:12:37.876 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+17:12:37.876 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+17:12:41.003 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/85b8649081b16fe6c78bae39d0f50aa937676abe
+17:12:41.003 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:12:41.014 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 908784f7-1759-45bf-9656-73330bdcd783, testhub id: uvmhp7iwony9ynlmhuk9evjoes4eghlcgoqvhf7e
+17:12:41.014 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:12:16.003 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+19:12:16.005 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:12:16.471 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\AppiumMobile\\testng-browserstack-master, user.dir=C\:\\AppiumMobile\\testng-browserstack-master, localrepository=C\:\\Users\\rbokka\\.m2\\repository}
+19:12:16.472 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:12:16.572 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+19:12:16.582 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:12:17.175 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+19:12:17.179 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 28853118-c66e-4717-a8f4-e93a3fe70735
+19:12:17.179 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:12:17.194 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+19:12:17.196 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+19:12:17.196 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+19:12:18.676 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:12:18.676 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+19:12:18.676 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+19:12:18.677 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+19:12:18.692 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+19:12:18.692 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+19:12:22.627 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:12:24.091 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: aietfr2xjkf7gxjt60zl1buhe5yt0u7ihd8kbhqv
+19:12:24.091 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:12:24.092 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+19:12:25.484 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+19:12:25.484 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:12:36.510 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:13:07.967 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/aietfr2xjkf7gxjt60zl1buhe5yt0u7ihd8kbhqv to view build report, insights, and many more debugging information all at one place!
+
+19:13:07.967 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:13:07.970 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:13:13.566 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:13:13.566 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:13:16.273 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7407982e0a69f625a5363fba715637e674717b72
+19:13:16.274 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:13:16.284 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 28853118-c66e-4717-a8f4-e93a3fe70735, testhub id: aietfr2xjkf7gxjt60zl1buhe5yt0u7ihd8kbhqv
+19:13:16.284 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:18:31.876 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+19:18:31.878 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:18:32.283 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:18:32.284 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:18:32.422 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+19:18:32.435 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:18:33.577 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+19:18:33.582 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 4caea9e6-4e66-4e21-a8e4-d04a80a56708
+19:18:33.583 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:18:33.669 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+19:18:33.671 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+19:18:33.671 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+19:18:34.752 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:18:34.753 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+19:18:34.753 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+19:18:34.755 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+19:18:34.788 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+19:18:34.789 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+19:18:38.754 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:18:39.917 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: li8ipyxxycfkqvilbskbwso8u23ruh6juv5x7djh
+19:18:39.917 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:18:39.918 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+19:18:40.794 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+19:18:40.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:18:50.725 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:19:19.719 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/li8ipyxxycfkqvilbskbwso8u23ruh6juv5x7djh to view build report, insights, and many more debugging information all at one place!
+
+19:19:19.720 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:19:19.723 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:19:26.511 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:19:26.512 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:19:29.716 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/01c43bceac6c5f5dd591ff5fdb37476a91338a91
+19:19:29.716 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:19:29.731 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 4caea9e6-4e66-4e21-a8e4-d04a80a56708, testhub id: li8ipyxxycfkqvilbskbwso8u23ruh6juv5x7djh
+19:19:29.731 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:20:39.025 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+19:20:39.026 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:20:39.373 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:20:39.374 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:20:39.469 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+19:20:39.479 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:20:40.563 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+19:20:40.568 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: a23a9a2d-4950-4026-afda-7a5977f9295d
+19:20:40.569 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:20:40.638 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+19:20:40.640 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+19:20:40.641 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+19:20:41.721 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:20:41.722 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+19:20:41.722 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+19:20:41.722 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+19:20:41.732 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+19:20:41.733 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+19:20:46.106 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:20:47.441 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: vznxkzpz5ercdgliixwcoyqnzalqjbclsfc2bus1
+19:20:47.441 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:20:47.441 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+19:20:48.557 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+19:20:48.557 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:20:57.906 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:21:23.543 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vznxkzpz5ercdgliixwcoyqnzalqjbclsfc2bus1 to view build report, insights, and many more debugging information all at one place!
+
+19:21:23.544 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:21:23.546 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:21:28.570 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:21:28.571 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:21:31.458 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/17ca8ee52c094a53ba694c5c2e84f4132ca576ad
+19:21:31.458 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:21:31.468 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: a23a9a2d-4950-4026-afda-7a5977f9295d, testhub id: vznxkzpz5ercdgliixwcoyqnzalqjbclsfc2bus1
+19:21:31.468 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:23:08.038 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.33.0
+19:23:08.040 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:23:08.380 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+19:23:08.381 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:23:08.468 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+19:23:08.478 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:23:09.287 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+19:23:09.295 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: a07faafb-e7c3-4d44-a6f4-8c93a2423b22
+19:23:09.295 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:23:09.339 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+19:23:09.340 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+19:23:09.341 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+19:23:10.156 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:23:10.157 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+19:23:10.157 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+19:23:10.158 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+19:23:10.168 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+19:23:10.169 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+19:23:14.160 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:23:15.400 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: i1mrgfwxshdtqyj6i1mokpbciw9cgrk0cg0ep0nf
+19:23:15.400 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:23:15.401 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+19:23:16.030 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+
+19:23:16.030 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:23:27.083 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:24:08.658 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/i1mrgfwxshdtqyj6i1mokpbciw9cgrk0cg0ep0nf to view build report, insights, and many more debugging information all at one place!
+
+19:24:08.658 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:24:08.660 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:24:13.650 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:24:13.651 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:24:16.745 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5733cbce6ea39478093312e2af0f9d1617dee8fc
+19:24:16.745 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:24:16.760 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: a07faafb-e7c3-4d44-a6f4-8c93a2423b22, testhub id: i1mrgfwxshdtqyj6i1mokpbciw9cgrk0cg0ep0nf
+19:24:16.760 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:29:54.565 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.33.0
+19:29:54.566 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+19:29:54.850 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\AppiumMobile\\testng-browserstack-master, user.dir=C\:\\AppiumMobile\\testng-browserstack-master, localrepository=C\:\\Users\\rbokka\\.m2\\repository}
+19:29:54.851 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:29:54.964 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+19:29:54.975 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+19:29:55.646 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+19:29:55.649 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: a909d93f-0e83-4bd2-8799-122ba1151b54
+19:29:55.650 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:29:55.663 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\rbokka\.browserstack already exist
+19:29:55.664 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+19:29:55.664 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+19:29:56.589 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+19:29:56.590 [main] DEBUG com.browserstack.v2.SdkCliUtils - Skipping binary download as BROWSERSTACK_SDK_BINARY_URL is set
+19:29:56.590 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: 
+19:29:56.591 [main] ERROR com.browserstack.v2.SdkCliUtils - Error in setting up cli path directory, Exception: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+	at browserstack.shaded.okhttp3.HttpUrl$Builder.a(Unknown Source)
+	at browserstack.shaded.okhttp3.HttpUrl.get(Unknown Source)
+	at browserstack.shaded.okhttp3.Request$Builder.url(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.downloadLatestBinary(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.checkAndUpdateCli(Unknown Source)
+	at com.browserstack.v2.SdkCliUtils.setupCliPath(Unknown Source)
+	at com.browserstack.v2.SdkCLI.<clinit>(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+19:29:56.602 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+19:29:56.602 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='null' 'sdk' 'tcp'
+19:29:59.997 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+19:30:01.765 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: tsmkg3z1mkqa3xn4l8dhgocuunnw64bzsvxczc41
+19:30:01.766 [main] INFO  c.b.config.BrowserStackConfig - INFO
+19:30:01.766 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+19:30:02.331 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+19:30:02.331 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+19:30:11.834 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+19:31:00.822 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tsmkg3z1mkqa3xn4l8dhgocuunnw64bzsvxczc41 to view build report, insights, and many more debugging information all at one place!
+
+19:31:00.822 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:31:00.824 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+19:31:05.666 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:31:05.666 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\AppiumMobile\testng-browserstack-master\browserstack.yml
+19:31:07.816 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9b96ac2213be5d1a1ef25c2e3ed0f76874d0f8ee
+19:31:07.817 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+19:31:07.828 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: a909d93f-0e83-4bd2-8799-122ba1151b54, testhub id: tsmkg3z1mkqa3xn4l8dhgocuunnw64bzsvxczc41
+19:31:07.828 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
