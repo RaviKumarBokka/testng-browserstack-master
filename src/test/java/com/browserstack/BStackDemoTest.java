@@ -14,7 +14,7 @@ public class BStackDemoTest extends SeleniumTest {
         // Check the title with browser window
         Assert.assertTrue(driver.getTitle().matches("StackDemo"));
 
-        // Save the text of the product for later verify
+        // Save the text of the product for later
         String productOnScreenText = driver.findElement(By.xpath("//*[@id=\"1\"]/p")).getText();
         // Click on add to cart button
         driver.findElement(By.xpath("//*[@id=\"1\"]/div[4]")).click();
