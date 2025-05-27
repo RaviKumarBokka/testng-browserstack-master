@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class BStackDemoTest extends SeleniumTest {
     @Test
     public void addProductToCart() throws Exception {
-        // navigate to bstackdemo
+        // navigate to bstackdemo fetch
         driver.get("https://www.bstackdemo.com");
 
         // Check the title with browser window
